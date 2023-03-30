@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos</title>
+    <link rel="stylesheet" href="../css/estilos.css" />
+  </head>
+  <body>
+    <!--encabezado-->
+    <header>
+      <div class="div__logo">
+        <a href="../index.html">
+          <img class="img__logo" src="../img/logo.png" alt="logo" />
+        </a>
+      </div>
+      <nav>
+        <ul class="menu__">
+          <li><a href="../index.html">Inicio</a></li>
+          <li>
+            <a href="productos.html">Productos</a>
+            <ul class="sub__menuflex">
+              <li><a href="#perfumes">Perfumes</a></li>
+              <li><a href="#cremas">Cremas</a></li>
+              <li><a href="#desodorantes">Desodorantes</a></li>
+            </ul>
+          </li>
+          <li><a href="ofertas.html">Ofertas</a></li>
+          <li><a href="carrito.html">Carrito</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--contenido principal-->
+    <main class="main__margin">
+      <div class="divproductos" id="cremas">
+        <h1 class="tipo-producto">Cremas</h1>
+
+        <img class="imgproducto" src="../img/cremaekos.jpg" alt="cremaekos" />
+        <h2>Ekos</h2>
+        <p>400ml</p>
+        <p>Antisequedad</p>
+        <p>Castaña</p>
+        <p>Precio:$4000</p>
+        <button class="boton__comprar" id="button">Comprar</button>
+      </div>
+      <div class="divproductos" id="perfumes">
+        <h1 class="tipo-producto">Perfumes</h1>
+
+        <img
+          class="imgproducto"
+          src="../img/esencial.jpg"
+          alt="imagenesencial"
+        />
+        <h2>Essencial</h2>
+        <p>100mg</p>
+        <p>Mujer</p>
+        <p>Floral</p>
+        <p>Precio:$6500</p>
+        <button class="boton__comprar" id="button">Comprar</button>
+      </div>
+
+      <div class="divproductos" id="desodorantes">
+        <h1 class="tipo-producto">Desodorantes</h1>
+        <img class="imgproducto" src="../img/desorante.jpg" alt="desodorante" />
+        <h2>Desodorante Tododia</h2>
+        <p>70ml</p>
+        <p>Mujer</p>
+        <p>Avellana</p>
+        <p>Precio:$900</p>
+        <button class="boton__comprar" id="button">Comprar</button>
+        <div class="div__padding"></div>
+      </div>
+    </main>
+    <footer>
+      <div id="banner"></div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrito</title>
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <!--encabezado-->
+    <header>
+      <div class="div__logo">
+        <a href="../index.html">
+          <img class="img__logo" src="../img/logo.png" alt="logo" />
+        </a>
+      </div>
+      <nav>
+        <ul class="menu__">
+          <li><a href="../index.html">Inicio</a></li>
+          <li>
+            <a href="productos.html">Productos</a>
+            <ul>
+              <li><a href="productos.html#">Perfumes</a></li>
+              <li><a href="productos.html#">Cremas</a></li>
+              <li><a href="productos.html#">Desodorantes</a></li>
+            </ul>
+          </li>
+          <li><a href="ofertas.html">Ofertas</a></li>
+          <li><a href="carrito.html">Carrito</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--contenido principal-->
+    <main class="main__margin">
+      <div>
+        <h1 class="estilocarrito">Carrito</h1>
+      </div>
+      <div class="animate__animated carrito__main animate__backInUp">
+        <div>
+          <img class="imagenes" src="../img/labial.jpg" />
+
+          <h2>Labial Una</h2>
+          <p>6g</p>
+          <p>Coral</p>
+          <p>Aterciopelada</p>
+          <p>Precio:$2350</p>
+          <button class="boton__eliminar" id="eliminar">-</button>
+          <span>2</span>
+          <button class="boton__sumar" id="agregar">+</button>
+        </div>
+        <div>
+          <img class="imagenes" src="../img/mamaybebe (2).jpg" />
+          <h2>Mamá y Bebe Colonia</h2>
+          <p>100ml</p>
+          <p>Aroma suave</p>
+          <p>Relajante</p>
+          <p>Precio:$3440</p>
+          <button class="boton__eliminar" id="eliminar_2">-</button>
+          <span>2</span>
+          <button class="boton__sumar" id="agregar_2">+</button>
+        </div>
+        <div>
+          <img class="imagenes" src="../img/shampoo.jpg" />
+          <h2>Shampoo Lumina</h2>
+          <p>300ml</p>
+          <p>Frutilla</p>
+          <p>Cabellos Secos</p>
+          <p>Precio:$1990</p>
+          <button class="boton__eliminar" id="eliminar_3">-</button>
+          <span>2</span>
+          <button class="boton__sumar" id="agregar_3">+</button>
+        </div>
+        <div>
+          <p>Cantidad de productos:2</p>
+          <p>Costo de envio:$600</p>
+          <p>Subtotal:$45000</p>
+          <p>Total:$5100</p>
+          <button class="boton__pagar" id="pagar">Pagar</button>
+        </div>
+        <div>
+          <img class="gift__2" src="../img/gift2.gif" />
+        </div>
+      </div>
+    </main>
+    <!--pie de pagina-->
+    <footer>
+      <div class="banner" id="banner"></div>
+    </footer>
+  </body>
+</html>
